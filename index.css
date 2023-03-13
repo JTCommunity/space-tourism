@@ -1,0 +1,124 @@
+/* convert px values from design file into rem or em. 16px = 1rem or 1em */
+/* When using %, ensure that it is respective to the element's container */
+html{
+    overflow: hidden;
+}
+body{
+    margin:0;padding: 0;
+    background-image:url(./assets/home/background-home-desktop.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    min-height:100vh;
+    min-width:100vw;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    height: 6rem;
+    margin: 2.5rem 0 0 3.4375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > aside{
+    width: 57.64%;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+.page-links{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 14.82%;
+    width: calc(65.3%);
+}
+a{
+    text-decoration: none;
+}
+.page-links > a{
+    color: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.page-links > a > div{
+    height: inherit;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0.6875em;
+    font-size: 1rem;
+}
+.page-links > a > div > h4:first-of-type{
+    font-weight: 700;
+}
+.page-links > a > div > h4:last-of-type{
+    font-weight: 400;
+}
+.page-links > a > div:hover{
+    border-bottom: 2px solid #fff;
+    opacity: 0.7;
+}
+main{
+    width: 100%;
+    height: calc(100% - 8.5rem);
+    margin: 0;
+    padding: 0 10.3125rem 8.1875rem 10.3125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+.content-left{
+    color: #D0D6F9;
+    width: 28.125rem;
+}
+.content-left > h5{
+    font-size: 1.75rem;
+    margin: 0;
+    letter-spacing: 0.295rem;
+    font-weight: 400;
+}
+.content-left > h1{
+    font-family: 'Bellefair', serif;
+    font-size: 9.375rem;
+    font-weight: 400;
+    line-height: 10.75rem;
+    color: #fff;
+    margin: 0;
+}
+.content-left > p {
+    font-size: 1.125rem;
+    font-weight: 100;
+    line-height: 2rem;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.content-right{
+    width: 17.125rem;
+    height: 17.125rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-right > h3{
+    margin: 0;
+    font-family: 'Bellefair', serif;    
+    font-weight: 100;
+    font-size: 2rem;
+    line-height: 5.31rem;
+    letter-spacing: 0.125em;
+}
+.content-right:hover{
+    box-shadow: 0 0 0 100px rgba(255,255,255,0.09);
+}
