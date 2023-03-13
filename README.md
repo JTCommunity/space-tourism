@@ -1,3 +1,7 @@
+## Getting started
+New to open-source or Github in general? Watch this short on how to contribute.
+https://www.youtube.com/watch?v=HbSjyU2vf6Y
+
 ## The challenge
 
 Our challenge is to build out this multi-page space tourism website and get it looking as close to the design as possible. It comes with a design figma file. This provides us with the ability to build a pixel perfect interface.
